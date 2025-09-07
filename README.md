@@ -1,3 +1,36 @@
+# React Router In-Depth Project
+
+This project demonstrates the fundamentals of [React Router](https://reactrouter.com/) in a modern React application. It covers:
+
+- **Basic Routing:** Setting up routes for different pages (Home, About, Careers, Help, NotFound).
+- **Nested Routes:** Organizing routes with nested layouts for sections like Careers and Help.
+- **Layout Components:** Using layout components to share UI across multiple routes.
+- **Dynamic Routing:** Displaying details for individual careers using route parameters.
+- **Error Handling:** Custom error pages for not found routes and data loading errors.
+- **Breadcrumbs:** Showing navigation breadcrumbs based on the current route.
+- **Data Loading:** Fetching data for routes (e.g., careers list and details) using loaders and json-server.
+- **Custom 404 Page:** Handling unmatched routes with a NotFound component.
+
+## Getting Started
+
+1. Install dependencies:
+   ```sh
+   npm install
+   ```
+2. Start the mock API server for careers data:
+   ```sh
+   json-server --watch data/db.json --port 4000
+   ```
+   The app fetches career information from [http://localhost:4000/careers](http://localhost:4000/careers).
+3. Start the React app:
+   ```sh
+   npm start
+   ```
+
+## React Router Documentation
+
+For more details on React Router, visit the [official documentation](https://reactrouter.com/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
